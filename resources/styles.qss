@@ -1,0 +1,28 @@
+QWidget {
+    background-color: #f0f0f0;
+}
+
+QTreeView {
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+}
+
+QTreeView::item {
+    padding: 5px;
+}
+
+QTreeView::item:selected {
+    background-color: #0078d7;
+    color: #ffffff;
+}
+
+QTextEdit {
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+}
+
+QTextEdit:focus {
+    border: 1px solid #0078d7;
+}
